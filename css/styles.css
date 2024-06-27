@@ -1,0 +1,65 @@
+body {
+    font-family: 'Fira Code', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3f0ff;
+    color: #333;
+  }
+  
+  h2 {
+    color: #4b0082;
+    font-size: 2rem;
+    border-bottom: 2px solid #dda0dd;
+    padding-bottom: 5px;
+  }
+  
+  .card-title {
+    color: #8a2be2;
+    font-size: 1.5rem;
+  }
+  
+  a {
+    color: #8a2be2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #dda0dd;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  header{
+    background-color: #4b0082;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  .navbar{
+    background-color: #4b0082;
+    color: white;
+    margin-bottom: 3rem;
+  }
+  
+  footer{
+    background-color: #4b0082;
+  }
+  
+  .subheading {
+  
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .cv button{
+    background-color: #dda0dd;
+    border-radius: 2rem;
+    border: #dda0dd;
+    color: #4b0082;
+  }
