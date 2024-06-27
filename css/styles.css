@@ -67,3 +67,8 @@ body {
   .cv button:hover{
     color: #dda0dd;
   }
+
+ .formulario{
+    border: solid #dda0dd 1px;
+    border-radius: 1rem;
+ }
