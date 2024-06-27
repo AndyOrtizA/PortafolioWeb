@@ -58,8 +58,12 @@ body {
   }
   
   .cv button{
-    background-color: #dda0dd;
+    background-color: #f3f0ff;
     border-radius: 2rem;
     border: #dda0dd;
     color: #4b0082;
+  }
+
+  .cv button:hover{
+    color: #dda0dd;
   }
