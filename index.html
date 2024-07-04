@@ -15,6 +15,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="./css/styles.css">
+  <!-- emailjs -->
+  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">emailjs.init('K6Gvp0TZoxEuQxjhQ')</script>
 </head>
 <body>
   
@@ -212,8 +215,37 @@
 
 
   <section id="contact" class="py-5">
+
+
+
+
     <div class="container">
       <h2 class="text">Contacto</h2>
+      <br>
+      <div class="container formulario col-md-6">
+        <form action="" id="form">
+          <br>
+          <h5 class="card-title text-center">Ponte en contacto conmigo, <br>enviame un mensaje</h5>
+          
+          <div class="mb-3 field">
+            <label for="from_name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="from_name" name="from_name" placeholder="" required>
+          </div>
+          <div class="mb-3 field">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+          </div>
+          <div class="mb-3 field">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" name="message"  rows="3" required></textarea>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-enviar mb-3" id="btn_enviar">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <br>
       <p>Email: <a href="mailto:andreaoal98@gmail.com">andreaoal98@gmail.com</a></p>
       <p>Teléfono: +52 4691044700</p>
       <ul class="list-unstyled">
@@ -225,22 +257,6 @@
         </svg> LinkedIn</a></li>
       </ul>
     </div>
-
-    <div class="container formulario">
-      <form action="">
-        <h5 class="card-title">Ponte en contacto conmigo, mandame un mesanje </h5>
-        
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
-    </div>
-
 
 
   </section>
@@ -260,5 +276,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!-- JS -->
    <script src="./js/main.js"></script>
+
 </body>
 </html>

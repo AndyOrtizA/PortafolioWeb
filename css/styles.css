@@ -72,3 +72,12 @@ body {
     border: solid #dda0dd 1px;
     border-radius: 1rem;
  }
+
+  .btn-enviar{
+    background-color: #4b0082;
+    color: whitesmoke;
+  }
+  .btn-enviar:hover{
+    background-color: #dda0dd;
+    color:whitesmoke;
+  }
