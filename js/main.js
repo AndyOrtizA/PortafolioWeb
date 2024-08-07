@@ -76,3 +76,22 @@ form.addEventListener("submit", function (event) {
 
 
 });
+
+
+
+// Frase del footer 
+let app = document.getElementById('app');
+
+let typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(1500)
+  .typeString('Trazando mi propia ruta')
+  .pauseFor(300)
+  .deleteAll()
+  .typeString('< Soy Desarrolladora de Software >')
+  .pauseFor(1000)
+  .start();
